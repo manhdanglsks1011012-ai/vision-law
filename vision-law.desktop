@@ -2,9 +2,9 @@
 Type=Application
 Name=Vision law
 Comment=Ghi chú và bo mạch kiến thức
-Exec=/home/alexdang/Codex/vision-law/run.sh
-Icon=/home/alexdang/Codex/vision-law/assets/vision-law.svg
+Exec=/opt/vision-law/vision-law
+Icon=vision-law
 Terminal=false
-Categories=Office;Education;
+Categories=Office;
 StartupNotify=true
 StartupWMClass=vision-law

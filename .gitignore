@@ -7,3 +7,9 @@ release/
 *.spec
 demo-vault/
 preview*.png
+
+.venv/
+.env
+.env.*
+*.pem
+*.key

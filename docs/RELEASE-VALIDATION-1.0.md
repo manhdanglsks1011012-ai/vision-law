@@ -26,4 +26,4 @@ Kết quả thực tế và kiểm tra bản đóng gói được ghi ở `TEST-
 
 Khóa chỉ áp dụng giữa các phiên Vision law, không khóa Obsidian hay trình sửa tệp bên ngoài. Lưu nguyên tử áp dụng từng tệp, không phải giao dịch nhiều tệp. Bản nháp có thể thiếu thay đổi trong khoảng 5 giây cuối trước khi máy bị ngắt đột ngột; bố trí các cửa sổ ghi chú đang mở chưa được phục hồi đầy đủ. Hãy giữ bản sao vault định kỳ.
 
-Đây là bản đóng gói dùng cá nhân, chưa xuất bản lên kho công khai. Thông báo bản quyền Python, PyQt, Qt và công cụ build được kèm theo; cần xem lại điều kiện giấy phép trước khi phân phối thương mại/công khai. Mã nguồn Vision law được cung cấp cùng bản portable, chưa gán giấy phép công khai thay chủ sở hữu.
+Bản chuẩn bị phát hành công khai. Thông báo bản quyền Python, PyQt, Qt và công cụ build được kèm theo; cần xem lại điều kiện giấy phép trước khi phân phối thương mại/công khai. Mã nguồn Vision law được cung cấp cùng bản portable theo GPL-3.0-only do chủ dự án lựa chọn.

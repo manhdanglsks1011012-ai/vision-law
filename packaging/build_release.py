@@ -11,10 +11,16 @@ stage.mkdir(parents=True,exist_ok=True)
 shutil.copytree(ROOT/'build-dist/vision-law',stage/'app',dirs_exist_ok=True)
 for name in ('install-user.sh','uninstall-user.sh'):copy(ROOT/'packaging'/name,stage/name)
 shutil.copytree(ROOT/'docs',stage/'docs',dirs_exist_ok=True)
+for name in ('LICENSE','THIRD_PARTY.md','README.md'):copy(ROOT/name,stage/name)
 notices=stage/'THIRD-PARTY';notices.mkdir(exist_ok=True)
 for name in ('python3-pyqt6','libqt6core6t64','libqt6gui6','libqt6widgets6'):
     source=Path('/usr/share/doc')/name/'copyright'
     if source.exists():copy(source,notices/(name+'-copyright'))
+provenance=json.loads((ROOT/'docs/BUNDLED-SOURCES.json').read_text())
+for package in provenance['packages']:
+    original=Path(package['copyright_file'])
+    if not original.exists():raise RuntimeError('Missing copyright: '+str(original))
+    copy(original,notices/(package['binary_package'].replace(':','_')+'-copyright'))
 for name in ('GPL-3','LGPL-3','LGPL-2.1','GPL-2'):
     source=Path('/usr/share/common-licenses')/name
     if source.exists():copy(source,notices/name)
@@ -38,6 +44,8 @@ copy(ROOT/'packaging/vision-law.desktop',debroot/'usr/share/applications/vision-
 copy(ROOT/'assets/vision-law.svg',debroot/'usr/share/icons/hicolor/scalable/apps/vision-law.svg')
 shutil.copytree(stage/'docs',debroot/'usr/share/doc/vision-law',dirs_exist_ok=True)
 shutil.copytree(notices,debroot/'usr/share/doc/vision-law/THIRD-PARTY',dirs_exist_ok=True)
+for name in ('LICENSE','THIRD_PARTY.md'):copy(ROOT/name,debroot/'usr/share/doc/vision-law'/name)
+copy(source,debroot/'usr/share/doc/vision-law'/source.name)
 control=debroot/'DEBIAN/control';control.parent.mkdir(exist_ok=True)
 control.write_text(f'''Package: vision-law
 Version: {VERSION}

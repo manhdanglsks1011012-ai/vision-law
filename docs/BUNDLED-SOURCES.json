@@ -1,0 +1,1693 @@
+{
+  "distribution": "Ubuntu 26.04 (resolute)",
+  "packages": [
+    {
+      "binary_package": "libqt6opengl6:amd64",
+      "version": "6.10.2+dfsg-7",
+      "source_package": "qt6-base",
+      "source_version": "6.10.2+dfsg-7",
+      "source_url": "https://launchpad.net/ubuntu/+source/qt6-base/6.10.2%2Bdfsg-7",
+      "copyright_file": "/usr/share/doc/libqt6opengl6/copyright",
+      "bundled_files": [
+        "libQt6EglFSDeviceIntegration.so.6",
+        "libQt6OpenGL.so.6",
+        "libQt6EglFsKmsGbmSupport.so.6",
+        "libQt6EglFsKmsSupport.so.6",
+        "PyQt6/Qt6/plugins/platforms/libqminimalegl.so",
+        "PyQt6/Qt6/plugins/platforms/libqeglfs.so",
+        "PyQt6/Qt6/plugins/egldeviceintegrations/libqeglfs-emu-integration.so",
+        "PyQt6/Qt6/plugins/egldeviceintegrations/libqeglfs-x11-integration.so",
+        "PyQt6/Qt6/plugins/egldeviceintegrations/libqeglfs-kms-integration.so",
+        "PyQt6/Qt6/plugins/egldeviceintegrations/libqeglfs-kms-egldevice-integration.so"
+      ]
+    },
+    {
+      "binary_package": "libqt6widgets6:amd64",
+      "version": "6.10.2+dfsg-7",
+      "source_package": "qt6-base",
+      "source_version": "6.10.2+dfsg-7",
+      "source_url": "https://launchpad.net/ubuntu/+source/qt6-base/6.10.2%2Bdfsg-7",
+      "copyright_file": "/usr/share/doc/libqt6widgets6/copyright",
+      "bundled_files": [
+        "libQt6Widgets.so.6"
+      ]
+    },
+    {
+      "binary_package": "libqt6gui6:amd64",
+      "version": "6.10.2+dfsg-7",
+      "source_package": "qt6-base",
+      "source_version": "6.10.2+dfsg-7",
+      "source_url": "https://launchpad.net/ubuntu/+source/qt6-base/6.10.2%2Bdfsg-7",
+      "copyright_file": "/usr/share/doc/libqt6gui6/copyright",
+      "bundled_files": [
+        "libQt6XcbQpa.so.6",
+        "libQt6Gui.so.6",
+        "PyQt6/Qt6/plugins/imageformats/libqgif.so",
+        "PyQt6/Qt6/plugins/imageformats/libqico.so",
+        "PyQt6/Qt6/plugins/imageformats/libqjpeg.so",
+        "PyQt6/Qt6/plugins/generic/libqevdevmouseplugin.so",
+        "PyQt6/Qt6/plugins/generic/libqevdevtouchplugin.so",
+        "PyQt6/Qt6/plugins/generic/libqevdevtabletplugin.so",
+        "PyQt6/Qt6/plugins/generic/libqlibinputplugin.so",
+        "PyQt6/Qt6/plugins/generic/libqtslibplugin.so",
+        "PyQt6/Qt6/plugins/generic/libqevdevkeyboardplugin.so",
+        "PyQt6/Qt6/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so",
+        "PyQt6/Qt6/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so",
+        "PyQt6/Qt6/plugins/platforms/libqminimal.so",
+        "PyQt6/Qt6/plugins/platforms/libqxcb.so",
+        "PyQt6/Qt6/plugins/platforms/libqvkkhrdisplay.so",
+        "PyQt6/Qt6/plugins/platforms/libqoffscreen.so",
+        "PyQt6/Qt6/plugins/platforms/libqlinuxfb.so",
+        "PyQt6/Qt6/plugins/xcbglintegrations/libqxcb-egl-integration.so",
+        "PyQt6/Qt6/plugins/xcbglintegrations/libqxcb-glx-integration.so"
+      ]
+    },
+    {
+      "binary_package": "libtiff6:amd64",
+      "version": "4.7.0-3ubuntu5",
+      "source_package": "tiff",
+      "source_version": "4.7.0-3ubuntu5",
+      "source_url": "https://launchpad.net/ubuntu/+source/tiff/4.7.0-3ubuntu5",
+      "copyright_file": "/usr/share/doc/libtiff6/copyright",
+      "bundled_files": [
+        "libtiff.so.6"
+      ]
+    },
+    {
+      "binary_package": "libxi6:amd64",
+      "version": "2:1.8.2-2",
+      "source_package": "libxi",
+      "source_version": "2:1.8.2-2",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxi/2%3A1.8.2-2",
+      "copyright_file": "/usr/share/doc/libxi6/copyright",
+      "bundled_files": [
+        "libXi.so.6"
+      ]
+    },
+    {
+      "binary_package": "libsasl2-2:amd64",
+      "version": "2.1.28+dfsg1-9ubuntu3",
+      "source_package": "cyrus-sasl2",
+      "source_version": "2.1.28+dfsg1-9ubuntu3",
+      "source_url": "https://launchpad.net/ubuntu/+source/cyrus-sasl2/2.1.28%2Bdfsg1-9ubuntu3",
+      "copyright_file": "/usr/share/doc/libsasl2-2/copyright",
+      "bundled_files": [
+        "libsasl2.so.2"
+      ]
+    },
+    {
+      "binary_package": "libbrotli1:i386",
+      "version": "1.2.0-3ubuntu0.1",
+      "source_package": "brotli",
+      "source_version": "1.2.0-3ubuntu0.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/brotli/1.2.0-3ubuntu0.1",
+      "copyright_file": "/usr/share/doc/libbrotli1/copyright",
+      "bundled_files": [
+        "libbrotlicommon.so.1",
+        "libbrotlidec.so.1"
+      ]
+    },
+    {
+      "binary_package": "libblkid1:amd64",
+      "version": "2.41.3-3ubuntu2.2",
+      "source_package": "util-linux",
+      "source_version": "2.41.3-3ubuntu2.2",
+      "source_url": "https://launchpad.net/ubuntu/+source/util-linux/2.41.3-3ubuntu2.2",
+      "copyright_file": "/usr/share/doc/libblkid1/copyright",
+      "bundled_files": [
+        "libblkid.so.1"
+      ]
+    },
+    {
+      "binary_package": "libicu78:amd64",
+      "version": "78.2-2ubuntu1",
+      "source_package": "icu",
+      "source_version": "78.2-2ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/icu/78.2-2ubuntu1",
+      "copyright_file": "/usr/share/doc/libicu78/copyright",
+      "bundled_files": [
+        "libicui18n.so.78",
+        "libicuuc.so.78",
+        "libicudata.so.78"
+      ]
+    },
+    {
+      "binary_package": "libxcb-render-util0:amd64",
+      "version": "0.3.10-1build1",
+      "source_package": "xcb-util-renderutil",
+      "source_version": "0.3.10-1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/xcb-util-renderutil/0.3.10-1build1",
+      "copyright_file": "/usr/share/doc/libxcb-render-util0/copyright",
+      "bundled_files": [
+        "libxcb-render-util.so.0"
+      ]
+    },
+    {
+      "binary_package": "libpython3.14:amd64",
+      "version": "3.14.4-1ubuntu0.2",
+      "source_package": "python3.14",
+      "source_version": "3.14.4-1ubuntu0.2",
+      "source_url": "https://launchpad.net/ubuntu/+source/python3.14/3.14.4-1ubuntu0.2",
+      "copyright_file": "/usr/share/doc/libpython3.14/copyright",
+      "bundled_files": [
+        "libpython3.14.so.1.0"
+      ]
+    },
+    {
+      "binary_package": "libgraphite2-3:amd64",
+      "version": "1.3.14-11ubuntu1.1",
+      "source_package": "graphite2",
+      "source_version": "1.3.14-11ubuntu1.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/graphite2/1.3.14-11ubuntu1.1",
+      "copyright_file": "/usr/share/doc/libgraphite2-3/copyright",
+      "bundled_files": [
+        "libgraphite2.so.3"
+      ]
+    },
+    {
+      "binary_package": "libxcb-shape0:amd64",
+      "version": "1.17.0-2ubuntu1",
+      "source_package": "libxcb",
+      "source_version": "1.17.0-2ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxcb/1.17.0-2ubuntu1",
+      "copyright_file": "/usr/share/doc/libxcb-shape0/copyright",
+      "bundled_files": [
+        "libxcb-shape.so.0"
+      ]
+    },
+    {
+      "binary_package": "libepoxy0:i386",
+      "version": "1.5.10-2build1",
+      "source_package": "libepoxy",
+      "source_version": "1.5.10-2build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libepoxy/1.5.10-2build1",
+      "copyright_file": "/usr/share/doc/libepoxy0/copyright",
+      "bundled_files": [
+        "libepoxy.so.0"
+      ]
+    },
+    {
+      "binary_package": "libglib2.0-0t64:amd64",
+      "version": "2.88.0-1ubuntu0.1",
+      "source_package": "glib2.0",
+      "source_version": "2.88.0-1ubuntu0.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/glib2.0/2.88.0-1ubuntu0.1",
+      "copyright_file": "/usr/share/doc/libglib2.0-0t64/copyright",
+      "bundled_files": [
+        "libgmodule-2.0.so.0",
+        "libglib-2.0.so.0"
+      ]
+    },
+    {
+      "binary_package": "libzstd1:amd64",
+      "version": "1.5.7+dfsg-3",
+      "source_package": "libzstd",
+      "source_version": "1.5.7+dfsg-3",
+      "source_url": "https://launchpad.net/ubuntu/+source/libzstd/1.5.7%2Bdfsg-3",
+      "copyright_file": "/usr/share/doc/libzstd1/copyright",
+      "bundled_files": [
+        "libzstd.so.1"
+      ]
+    },
+    {
+      "binary_package": "libssl3t64:i386",
+      "version": "3.5.5-1ubuntu3.7",
+      "source_package": "openssl",
+      "source_version": "3.5.5-1ubuntu3.7",
+      "source_url": "https://launchpad.net/ubuntu/+source/openssl/3.5.5-1ubuntu3.7",
+      "copyright_file": "/usr/share/doc/libssl3t64/copyright",
+      "bundled_files": [
+        "libcrypto.so.3"
+      ]
+    },
+    {
+      "binary_package": "libthai0:amd64",
+      "version": "0.1.30-1",
+      "source_package": "libthai",
+      "source_version": "0.1.30-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libthai/0.1.30-1",
+      "copyright_file": "/usr/share/doc/libthai0/copyright",
+      "bundled_files": [
+        "libthai.so.0"
+      ]
+    },
+    {
+      "binary_package": "libqt6core6t64:amd64",
+      "version": "6.10.2+dfsg-7",
+      "source_package": "qt6-base",
+      "source_version": "6.10.2+dfsg-7",
+      "source_url": "https://launchpad.net/ubuntu/+source/qt6-base/6.10.2%2Bdfsg-7",
+      "copyright_file": "/usr/share/doc/libqt6core6t64/copyright",
+      "bundled_files": [
+        "libQt6Core.so.6"
+      ]
+    },
+    {
+      "binary_package": "libatspi2.0-0t64:i386",
+      "version": "2.60.4-0ubuntu0.1",
+      "source_package": "at-spi2-core",
+      "source_version": "2.60.4-0ubuntu0.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/at-spi2-core/2.60.4-0ubuntu0.1",
+      "copyright_file": "/usr/share/doc/libatspi2.0-0t64/copyright",
+      "bundled_files": [
+        "libatspi.so.0"
+      ]
+    },
+    {
+      "binary_package": "libqt6svg6:amd64",
+      "version": "6.10.2-2",
+      "source_package": "qt6-svg",
+      "source_version": "6.10.2-2",
+      "source_url": "https://launchpad.net/ubuntu/+source/qt6-svg/6.10.2-2",
+      "copyright_file": "/usr/share/doc/libqt6svg6/copyright",
+      "bundled_files": [
+        "libQt6Svg.so.6"
+      ]
+    },
+    {
+      "binary_package": "libjpeg-turbo8:i386",
+      "version": "2.1.5-4ubuntu4",
+      "source_package": "libjpeg-turbo",
+      "source_version": "2.1.5-4ubuntu4",
+      "source_url": "https://launchpad.net/ubuntu/+source/libjpeg-turbo/2.1.5-4ubuntu4",
+      "copyright_file": "/usr/share/doc/libjpeg-turbo8/copyright",
+      "bundled_files": [
+        "libjpeg.so.8"
+      ]
+    },
+    {
+      "binary_package": "libxkbcommon-x11-0:amd64",
+      "version": "1.13.1-1",
+      "source_package": "libxkbcommon",
+      "source_version": "1.13.1-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxkbcommon/1.13.1-1",
+      "copyright_file": "/usr/share/doc/libxkbcommon-x11-0/copyright",
+      "bundled_files": [
+        "libxkbcommon-x11.so.0"
+      ]
+    },
+    {
+      "binary_package": "libxcb-glx0:i386",
+      "version": "1.17.0-2ubuntu1",
+      "source_package": "libxcb",
+      "source_version": "1.17.0-2ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxcb/1.17.0-2ubuntu1",
+      "copyright_file": "/usr/share/doc/libxcb-glx0/copyright",
+      "bundled_files": [
+        "libxcb-glx.so.0"
+      ]
+    },
+    {
+      "binary_package": "libtasn1-6:amd64",
+      "version": "4.21.0-2",
+      "source_package": "libtasn1-6",
+      "source_version": "4.21.0-2",
+      "source_url": "https://launchpad.net/ubuntu/+source/libtasn1-6/4.21.0-2",
+      "copyright_file": "/usr/share/doc/libtasn1-6/copyright",
+      "bundled_files": [
+        "libtasn1.so.6"
+      ]
+    },
+    {
+      "binary_package": "libp11-kit0:i386",
+      "version": "0.26.2-2",
+      "source_package": "p11-kit",
+      "source_version": "0.26.2-2",
+      "source_url": "https://launchpad.net/ubuntu/+source/p11-kit/0.26.2-2",
+      "copyright_file": "/usr/share/doc/libp11-kit0/copyright",
+      "bundled_files": [
+        "libp11-kit.so.0"
+      ]
+    },
+    {
+      "binary_package": "libpangocairo-1.0-0:amd64",
+      "version": "1.57.0-1",
+      "source_package": "pango1.0",
+      "source_version": "1.57.0-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/pango1.0/1.57.0-1",
+      "copyright_file": "/usr/share/doc/libpangocairo-1.0-0/copyright",
+      "bundled_files": [
+        "libpangocairo-1.0.so.0"
+      ]
+    },
+    {
+      "binary_package": "libxcb-icccm4:amd64",
+      "version": "0.4.2-1build1",
+      "source_package": "xcb-util-wm",
+      "source_version": "0.4.2-1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/xcb-util-wm/0.4.2-1build1",
+      "copyright_file": "/usr/share/doc/libxcb-icccm4/copyright",
+      "bundled_files": [
+        "libxcb-icccm.so.4"
+      ]
+    },
+    {
+      "binary_package": "libpangoft2-1.0-0:amd64",
+      "version": "1.57.0-1",
+      "source_package": "pango1.0",
+      "source_version": "1.57.0-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/pango1.0/1.57.0-1",
+      "copyright_file": "/usr/share/doc/libpangoft2-1.0-0/copyright",
+      "bundled_files": [
+        "libpangoft2-1.0.so.0"
+      ]
+    },
+    {
+      "binary_package": "libnghttp2-14:i386",
+      "version": "1.68.0-2ubuntu0.2",
+      "source_package": "nghttp2",
+      "source_version": "1.68.0-2ubuntu0.2",
+      "source_url": "https://launchpad.net/ubuntu/+source/nghttp2/1.68.0-2ubuntu0.2",
+      "copyright_file": "/usr/share/doc/libnghttp2-14/copyright",
+      "bundled_files": [
+        "libnghttp2.so.14"
+      ]
+    },
+    {
+      "binary_package": "libssh2-1t64:amd64",
+      "version": "1.11.1-1ubuntu0.26.04.4",
+      "source_package": "libssh2",
+      "source_version": "1.11.1-1ubuntu0.26.04.4",
+      "source_url": "https://launchpad.net/ubuntu/+source/libssh2/1.11.1-1ubuntu0.26.04.4",
+      "copyright_file": "/usr/share/doc/libssh2-1t64/copyright",
+      "bundled_files": [
+        "libssh2.so.1"
+      ]
+    },
+    {
+      "binary_package": "libqt6wlshellintegration6:amd64",
+      "version": "6.10.2+dfsg-7",
+      "source_package": "qt6-base",
+      "source_version": "6.10.2+dfsg-7",
+      "source_url": "https://launchpad.net/ubuntu/+source/qt6-base/6.10.2%2Bdfsg-7",
+      "copyright_file": "/usr/share/doc/libqt6wlshellintegration6/copyright",
+      "bundled_files": [
+        "libQt6WlShellIntegration.so.6",
+        "PyQt6/Qt6/plugins/wayland-shell-integration/libwl-shell-plugin.so",
+        "PyQt6/Qt6/plugins/wayland-shell-integration/libfullscreen-shell-v1.so",
+        "PyQt6/Qt6/plugins/wayland-shell-integration/libxdg-shell.so"
+      ]
+    },
+    {
+      "binary_package": "libxcb-xfixes0:i386",
+      "version": "1.17.0-2ubuntu1",
+      "source_package": "libxcb",
+      "source_version": "1.17.0-2ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxcb/1.17.0-2ubuntu1",
+      "copyright_file": "/usr/share/doc/libxcb-xfixes0/copyright",
+      "bundled_files": [
+        "libxcb-xfixes.so.0"
+      ]
+    },
+    {
+      "binary_package": "libudev1:i386",
+      "version": "259.9-0ubuntu0.1",
+      "source_package": "systemd",
+      "source_version": "259.9-0ubuntu0.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/systemd/259.9-0ubuntu0.1",
+      "copyright_file": "/usr/share/doc/libudev1/copyright",
+      "bundled_files": [
+        "libudev.so.1"
+      ]
+    },
+    {
+      "binary_package": "libpng16-16t64:i386",
+      "version": "1.6.57-1ubuntu0.1",
+      "source_package": "libpng1.6",
+      "source_version": "1.6.57-1ubuntu0.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libpng1.6/1.6.57-1ubuntu0.1",
+      "copyright_file": "/usr/share/doc/libpng16-16t64/copyright",
+      "bundled_files": [
+        "libpng16.so.16"
+      ]
+    },
+    {
+      "binary_package": "libxcb-render0:i386",
+      "version": "1.17.0-2ubuntu1",
+      "source_package": "libxcb",
+      "source_version": "1.17.0-2ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxcb/1.17.0-2ubuntu1",
+      "copyright_file": "/usr/share/doc/libxcb-render0/copyright",
+      "bundled_files": [
+        "libxcb-render.so.0"
+      ]
+    },
+    {
+      "binary_package": "libmtdev1t64:amd64",
+      "version": "1.1.7-1build1",
+      "source_package": "mtdev",
+      "source_version": "1.1.7-1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/mtdev/1.1.7-1build1",
+      "copyright_file": "/usr/share/doc/libmtdev1t64/copyright",
+      "bundled_files": [
+        "libmtdev.so.1"
+      ]
+    },
+    {
+      "binary_package": "libinput10:amd64",
+      "version": "1.31.1-1ubuntu1.2",
+      "source_package": "libinput",
+      "source_version": "1.31.1-1ubuntu1.2",
+      "source_url": "https://launchpad.net/ubuntu/+source/libinput/1.31.1-1ubuntu1.2",
+      "copyright_file": "/usr/share/doc/libinput10/copyright",
+      "bundled_files": [
+        "libinput.so.10"
+      ]
+    },
+    {
+      "binary_package": "libqt6waylandclient6:amd64",
+      "version": "6.10.2+dfsg-7",
+      "source_package": "qt6-base",
+      "source_version": "6.10.2+dfsg-7",
+      "source_url": "https://launchpad.net/ubuntu/+source/qt6-base/6.10.2%2Bdfsg-7",
+      "copyright_file": "/usr/share/doc/libqt6waylandclient6/copyright",
+      "bundled_files": [
+        "libQt6WaylandClient.so.6",
+        "PyQt6/Qt6/plugins/wayland-decoration-client/libbradient.so",
+        "PyQt6/Qt6/plugins/wayland-graphics-integration-client/libqt-plugin-wayland-egl.so",
+        "PyQt6/Qt6/plugins/wayland-graphics-integration-client/libvulkan-server.so",
+        "PyQt6/Qt6/plugins/wayland-graphics-integration-client/libdmabuf-server.so",
+        "PyQt6/Qt6/plugins/wayland-graphics-integration-client/libshm-emulation-server.so",
+        "PyQt6/Qt6/plugins/wayland-graphics-integration-client/libdrm-egl-server.so",
+        "PyQt6/Qt6/plugins/platforms/libqwayland.so"
+      ]
+    },
+    {
+      "binary_package": "libxcb-sync1:amd64",
+      "version": "1.17.0-2ubuntu1",
+      "source_package": "libxcb",
+      "source_version": "1.17.0-2ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxcb/1.17.0-2ubuntu1",
+      "copyright_file": "/usr/share/doc/libxcb-sync1/copyright",
+      "bundled_files": [
+        "libxcb-sync.so.1"
+      ]
+    },
+    {
+      "binary_package": "libqt6dbus6:amd64",
+      "version": "6.10.2+dfsg-7",
+      "source_package": "qt6-base",
+      "source_version": "6.10.2+dfsg-7",
+      "source_url": "https://launchpad.net/ubuntu/+source/qt6-base/6.10.2%2Bdfsg-7",
+      "copyright_file": "/usr/share/doc/libqt6dbus6/copyright",
+      "bundled_files": [
+        "libQt6DBus.so.6"
+      ]
+    },
+    {
+      "binary_package": "libffi8:i386",
+      "version": "3.5.2-4",
+      "source_package": "libffi",
+      "source_version": "3.5.2-4",
+      "source_url": "https://launchpad.net/ubuntu/+source/libffi/3.5.2-4",
+      "copyright_file": "/usr/share/doc/libffi8/copyright",
+      "bundled_files": [
+        "libffi.so.8"
+      ]
+    },
+    {
+      "binary_package": "libgbm1:i386",
+      "version": "26.0.8-1ubuntu0.3",
+      "source_package": "mesa",
+      "source_version": "26.0.8-1ubuntu0.3",
+      "source_url": "https://launchpad.net/ubuntu/+source/mesa/26.0.8-1ubuntu0.3",
+      "copyright_file": "/usr/share/doc/libgbm1/copyright",
+      "bundled_files": [
+        "libgbm.so.1"
+      ]
+    },
+    {
+      "binary_package": "libxkbcommon0:i386",
+      "version": "1.13.1-1",
+      "source_package": "libxkbcommon",
+      "source_version": "1.13.1-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxkbcommon/1.13.1-1",
+      "copyright_file": "/usr/share/doc/libxkbcommon0/copyright",
+      "bundled_files": [
+        "libxkbcommon.so.0"
+      ]
+    },
+    {
+      "binary_package": "libxfixes3:amd64",
+      "version": "1:6.0.0-2build2",
+      "source_package": "libxfixes",
+      "source_version": "1:6.0.0-2build2",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxfixes/1%3A6.0.0-2build2",
+      "copyright_file": "/usr/share/doc/libxfixes3/copyright",
+      "bundled_files": [
+        "libXfixes.so.3"
+      ]
+    },
+    {
+      "binary_package": "libb2-1:amd64",
+      "version": "0.98.1-1.1build2",
+      "source_package": "libb2",
+      "source_version": "0.98.1-1.1build2",
+      "source_url": "https://launchpad.net/ubuntu/+source/libb2/0.98.1-1.1build2",
+      "copyright_file": "/usr/share/doc/libb2-1/copyright",
+      "bundled_files": [
+        "libb2.so.1"
+      ]
+    },
+    {
+      "binary_package": "libatk-bridge2.0-0t64:amd64",
+      "version": "2.60.4-0ubuntu0.1",
+      "source_package": "at-spi2-core",
+      "source_version": "2.60.4-0ubuntu0.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/at-spi2-core/2.60.4-0ubuntu0.1",
+      "copyright_file": "/usr/share/doc/libatk-bridge2.0-0t64/copyright",
+      "bundled_files": [
+        "libatk-bridge-2.0.so.0"
+      ]
+    },
+    {
+      "binary_package": "libxcb-shm0:amd64",
+      "version": "1.17.0-2ubuntu1",
+      "source_package": "libxcb",
+      "source_version": "1.17.0-2ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxcb/1.17.0-2ubuntu1",
+      "copyright_file": "/usr/share/doc/libxcb-shm0/copyright",
+      "bundled_files": [
+        "libxcb-shm.so.0"
+      ]
+    },
+    {
+      "binary_package": "libcurl3t64-gnutls:i386",
+      "version": "8.18.0-1ubuntu2.8",
+      "source_package": "curl",
+      "source_version": "8.18.0-1ubuntu2.8",
+      "source_url": "https://launchpad.net/ubuntu/+source/curl/8.18.0-1ubuntu2.8",
+      "copyright_file": "/usr/share/doc/libcurl3t64-gnutls/copyright",
+      "bundled_files": [
+        "libcurl-gnutls.so.4"
+      ]
+    },
+    {
+      "binary_package": "libgtk-3-0t64:amd64",
+      "version": "3.24.52-0ubuntu1",
+      "source_package": "gtk+3.0",
+      "source_version": "3.24.52-0ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/gtk%2B3.0/3.24.52-0ubuntu1",
+      "copyright_file": "/usr/share/doc/libgtk-3-0t64/copyright",
+      "bundled_files": [
+        "libgtk-3.so.0",
+        "libgdk-3.so.0"
+      ]
+    },
+    {
+      "binary_package": "libproxy1v5:i386",
+      "version": "0.5.12-1",
+      "source_package": "libproxy",
+      "source_version": "0.5.12-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libproxy/0.5.12-1",
+      "copyright_file": "/usr/share/doc/libproxy1v5/copyright",
+      "bundled_files": [
+        "libproxy.so.1"
+      ]
+    },
+    {
+      "binary_package": "libxinerama1:amd64",
+      "version": "2:1.1.4-3build2",
+      "source_package": "libxinerama",
+      "source_version": "2:1.1.4-3build2",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxinerama/2%3A1.1.4-3build2",
+      "copyright_file": "/usr/share/doc/libxinerama1/copyright",
+      "bundled_files": [
+        "libXinerama.so.1"
+      ]
+    },
+    {
+      "binary_package": "libxext6:i386",
+      "version": "2:1.3.4-1build3",
+      "source_package": "libxext",
+      "source_version": "2:1.3.4-1build3",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxext/2%3A1.3.4-1build3",
+      "copyright_file": "/usr/share/doc/libxext6/copyright",
+      "bundled_files": [
+        "libXext.so.6"
+      ]
+    },
+    {
+      "binary_package": "libxcb-util1:amd64",
+      "version": "0.4.1-1build1",
+      "source_package": "xcb-util",
+      "source_version": "0.4.1-1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/xcb-util/0.4.1-1build1",
+      "copyright_file": "/usr/share/doc/libxcb-util1/copyright",
+      "bundled_files": [
+        "libxcb-util.so.1"
+      ]
+    },
+    {
+      "binary_package": "libgudev-1.0-0:i386",
+      "version": "1:238-7build1",
+      "source_package": "libgudev",
+      "source_version": "238-7build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libgudev/238-7build1",
+      "copyright_file": "/usr/share/doc/libgudev-1.0-0/copyright",
+      "bundled_files": [
+        "libgudev-1.0.so.0"
+      ]
+    },
+    {
+      "binary_package": "libpcre2-8-0:amd64",
+      "version": "10.46-1ubuntu0.1",
+      "source_package": "pcre2",
+      "source_version": "10.46-1ubuntu0.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/pcre2/10.46-1ubuntu0.1",
+      "copyright_file": "/usr/share/doc/libpcre2-8-0/copyright",
+      "bundled_files": [
+        "libpcre2-8.so.0"
+      ]
+    },
+    {
+      "binary_package": "libduktape207:amd64",
+      "version": "2.7.0+tests-0ubuntu4",
+      "source_package": "duktape",
+      "source_version": "2.7.0+tests-0ubuntu4",
+      "source_url": "https://launchpad.net/ubuntu/+source/duktape/2.7.0%2Btests-0ubuntu4",
+      "copyright_file": "/usr/share/doc/libduktape207/copyright",
+      "bundled_files": [
+        "libduktape.so.207"
+      ]
+    },
+    {
+      "binary_package": "libcairo2:amd64",
+      "version": "1.18.4-3",
+      "source_package": "cairo",
+      "source_version": "1.18.4-3",
+      "source_url": "https://launchpad.net/ubuntu/+source/cairo/1.18.4-3",
+      "copyright_file": "/usr/share/doc/libcairo2/copyright",
+      "bundled_files": [
+        "libcairo.so.2"
+      ]
+    },
+    {
+      "binary_package": "liblerc4:amd64",
+      "version": "4.0.0+ds-5ubuntu2",
+      "source_package": "lerc",
+      "source_version": "4.0.0+ds-5ubuntu2",
+      "source_url": "https://launchpad.net/ubuntu/+source/lerc/4.0.0%2Bds-5ubuntu2",
+      "copyright_file": "/usr/share/doc/liblerc4/copyright",
+      "bundled_files": [
+        "libLerc.so.4"
+      ]
+    },
+    {
+      "binary_package": "libproxy1v5:amd64",
+      "version": "0.5.12-1",
+      "source_package": "libproxy",
+      "source_version": "0.5.12-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libproxy/0.5.12-1",
+      "copyright_file": "/usr/share/doc/libproxy1v5/copyright",
+      "bundled_files": [
+        "libpxbackend-1.0.so"
+      ]
+    },
+    {
+      "binary_package": "libatomic1:amd64",
+      "version": "16-20260322-1ubuntu1",
+      "source_package": "gcc-16",
+      "source_version": "16-20260322-1ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/gcc-16/16-20260322-1ubuntu1",
+      "copyright_file": "/usr/share/doc/libatomic1/copyright",
+      "bundled_files": [
+        "libatomic.so.1"
+      ]
+    },
+    {
+      "binary_package": "libglib2.0-0t64:i386",
+      "version": "2.88.0-1ubuntu0.1",
+      "source_package": "glib2.0",
+      "source_version": "2.88.0-1ubuntu0.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/glib2.0/2.88.0-1ubuntu0.1",
+      "copyright_file": "/usr/share/doc/libglib2.0-0t64/copyright",
+      "bundled_files": [
+        "libgobject-2.0.so.0",
+        "libgio-2.0.so.0"
+      ]
+    },
+    {
+      "binary_package": "libatk1.0-0t64:amd64",
+      "version": "2.60.4-0ubuntu0.1",
+      "source_package": "at-spi2-core",
+      "source_version": "2.60.4-0ubuntu0.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/at-spi2-core/2.60.4-0ubuntu0.1",
+      "copyright_file": "/usr/share/doc/libatk1.0-0t64/copyright",
+      "bundled_files": [
+        "libatk-1.0.so.0"
+      ]
+    },
+    {
+      "binary_package": "libdeflate0:i386",
+      "version": "1.23-2ubuntu1",
+      "source_package": "libdeflate",
+      "source_version": "1.23-2ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libdeflate/1.23-2ubuntu1",
+      "copyright_file": "/usr/share/doc/libdeflate0/copyright",
+      "bundled_files": [
+        "libdeflate.so.0"
+      ]
+    },
+    {
+      "binary_package": "libxrandr2:amd64",
+      "version": "2:1.5.4-1build1",
+      "source_package": "libxrandr",
+      "source_version": "2:1.5.4-1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxrandr/2%3A1.5.4-1build1",
+      "copyright_file": "/usr/share/doc/libxrandr2/copyright",
+      "bundled_files": [
+        "libXrandr.so.2"
+      ]
+    },
+    {
+      "binary_package": "libwebpmux3:i386",
+      "version": "1.5.0-0.1build1",
+      "source_package": "libwebp",
+      "source_version": "1.5.0-0.1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libwebp/1.5.0-0.1build1",
+      "copyright_file": "/usr/share/doc/libwebpmux3/copyright",
+      "bundled_files": [
+        "libwebpmux.so.3"
+      ]
+    },
+    {
+      "binary_package": "libmd4c0:amd64",
+      "version": "0.5.2-2build1",
+      "source_package": "md4c",
+      "source_version": "0.5.2-2build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/md4c/0.5.2-2build1",
+      "copyright_file": "/usr/share/doc/libmd4c0/copyright",
+      "bundled_files": [
+        "libmd4c.so.0"
+      ]
+    },
+    {
+      "binary_package": "libwebpdemux2:amd64",
+      "version": "1.5.0-0.1build1",
+      "source_package": "libwebp",
+      "source_version": "1.5.0-0.1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libwebp/1.5.0-0.1build1",
+      "copyright_file": "/usr/share/doc/libwebpdemux2/copyright",
+      "bundled_files": [
+        "libwebpdemux.so.2"
+      ]
+    },
+    {
+      "binary_package": "libxdmcp6:i386",
+      "version": "1:1.1.5-2",
+      "source_package": "libxdmcp",
+      "source_version": "1:1.1.5-2",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxdmcp/1%3A1.1.5-2",
+      "copyright_file": "/usr/share/doc/libxdmcp6/copyright",
+      "bundled_files": [
+        "libXdmcp.so.6"
+      ]
+    },
+    {
+      "binary_package": "libxcb-randr0:amd64",
+      "version": "1.17.0-2ubuntu1",
+      "source_package": "libxcb",
+      "source_version": "1.17.0-2ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxcb/1.17.0-2ubuntu1",
+      "copyright_file": "/usr/share/doc/libxcb-randr0/copyright",
+      "bundled_files": [
+        "libxcb-randr.so.0"
+      ]
+    },
+    {
+      "binary_package": "libjbig0:amd64",
+      "version": "2.1-6.1ubuntu3",
+      "source_package": "jbigkit",
+      "source_version": "2.1-6.1ubuntu3",
+      "source_url": "https://launchpad.net/ubuntu/+source/jbigkit/2.1-6.1ubuntu3",
+      "copyright_file": "/usr/share/doc/libjbig0/copyright",
+      "bundled_files": [
+        "libjbig.so.0"
+      ]
+    },
+    {
+      "binary_package": "libxcb-cursor0:amd64",
+      "version": "0.1.6-1",
+      "source_package": "xcb-util-cursor",
+      "source_version": "0.1.6-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/xcb-util-cursor/0.1.6-1",
+      "copyright_file": "/usr/share/doc/libxcb-cursor0/copyright",
+      "bundled_files": [
+        "libxcb-cursor.so.0"
+      ]
+    },
+    {
+      "binary_package": "libseccomp2:amd64",
+      "version": "2.6.0-2ubuntu5",
+      "source_package": "libseccomp",
+      "source_version": "2.6.0-2ubuntu5",
+      "source_url": "https://launchpad.net/ubuntu/+source/libseccomp/2.6.0-2ubuntu5",
+      "copyright_file": "/usr/share/doc/libseccomp2/copyright",
+      "bundled_files": [
+        "libseccomp.so.2"
+      ]
+    },
+    {
+      "binary_package": "libnettle8t64:i386",
+      "version": "3.10.2-1",
+      "source_package": "nettle",
+      "source_version": "3.10.2-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/nettle/3.10.2-1",
+      "copyright_file": "/usr/share/doc/libnettle8t64/copyright",
+      "bundled_files": [
+        "libnettle.so.8"
+      ]
+    },
+    {
+      "binary_package": "libpixman-1-0:i386",
+      "version": "0.46.4-1",
+      "source_package": "pixman",
+      "source_version": "0.46.4-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/pixman/0.46.4-1",
+      "copyright_file": "/usr/share/doc/libpixman-1-0/copyright",
+      "bundled_files": [
+        "libpixman-1.so.0"
+      ]
+    },
+    {
+      "binary_package": "libdatrie1:amd64",
+      "version": "0.2.14-1",
+      "source_package": "libdatrie",
+      "source_version": "0.2.14-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libdatrie/0.2.14-1",
+      "copyright_file": "/usr/share/doc/libdatrie1/copyright",
+      "bundled_files": [
+        "libdatrie.so.1"
+      ]
+    },
+    {
+      "binary_package": "libkrb5-3:amd64",
+      "version": "1.22.1-2ubuntu4.1",
+      "source_package": "krb5",
+      "source_version": "1.22.1-2ubuntu4.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/krb5/1.22.1-2ubuntu4.1",
+      "copyright_file": "/usr/share/doc/libkrb5-3/copyright",
+      "bundled_files": [
+        "libkrb5.so.3"
+      ]
+    },
+    {
+      "binary_package": "zlib1g:i386",
+      "version": "1:1.3.dfsg+really1.3.1-1ubuntu3.2",
+      "source_package": "zlib",
+      "source_version": "1:1.3.dfsg+really1.3.1-1ubuntu3.2",
+      "source_url": "https://launchpad.net/ubuntu/+source/zlib/1%3A1.3.dfsg%2Breally1.3.1-1ubuntu3.2",
+      "copyright_file": "/usr/share/doc/zlib1g/copyright",
+      "bundled_files": [
+        "libz.so.1"
+      ]
+    },
+    {
+      "binary_package": "libgnutls30t64:amd64",
+      "version": "3.8.12-2ubuntu1.1",
+      "source_package": "gnutls28",
+      "source_version": "3.8.12-2ubuntu1.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/gnutls28/3.8.12-2ubuntu1.1",
+      "copyright_file": "/usr/share/doc/libgnutls30t64/copyright",
+      "bundled_files": [
+        "libgnutls.so.30"
+      ]
+    },
+    {
+      "binary_package": "libcairo-gobject2:amd64",
+      "version": "1.18.4-3",
+      "source_package": "cairo",
+      "source_version": "1.18.4-3",
+      "source_url": "https://launchpad.net/ubuntu/+source/cairo/1.18.4-3",
+      "copyright_file": "/usr/share/doc/libcairo-gobject2/copyright",
+      "bundled_files": [
+        "libcairo-gobject.so.2"
+      ]
+    },
+    {
+      "binary_package": "libxcursor1:i386",
+      "version": "1:1.2.3-1build1",
+      "source_package": "libxcursor",
+      "source_version": "1:1.2.3-1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxcursor/1%3A1.2.3-1build1",
+      "copyright_file": "/usr/share/doc/libxcursor1/copyright",
+      "bundled_files": [
+        "libXcursor.so.1"
+      ]
+    },
+    {
+      "binary_package": "libexpat1:i386",
+      "version": "2.7.4-1ubuntu0.2",
+      "source_package": "expat",
+      "source_version": "2.7.4-1ubuntu0.2",
+      "source_url": "https://launchpad.net/ubuntu/+source/expat/2.7.4-1ubuntu0.2",
+      "copyright_file": "/usr/share/doc/libexpat1/copyright",
+      "bundled_files": [
+        "libexpat.so.1"
+      ]
+    },
+    {
+      "binary_package": "libldap2:amd64",
+      "version": "2.6.10+dfsg-1ubuntu5",
+      "source_package": "openldap",
+      "source_version": "2.6.10+dfsg-1ubuntu5",
+      "source_url": "https://launchpad.net/ubuntu/+source/openldap/2.6.10%2Bdfsg-1ubuntu5",
+      "copyright_file": "/usr/share/doc/libldap2/copyright",
+      "bundled_files": [
+        "libldap.so.2"
+      ]
+    },
+    {
+      "binary_package": "libfribidi0:i386",
+      "version": "1.0.16-5",
+      "source_package": "fribidi",
+      "source_version": "1.0.16-5",
+      "source_url": "https://launchpad.net/ubuntu/+source/fribidi/1.0.16-5",
+      "copyright_file": "/usr/share/doc/libfribidi0/copyright",
+      "bundled_files": [
+        "libfribidi.so.0"
+      ]
+    },
+    {
+      "binary_package": "libfontconfig1:i386",
+      "version": "2.17.1-3ubuntu1",
+      "source_package": "fontconfig",
+      "source_version": "2.17.1-3ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/fontconfig/2.17.1-3ubuntu1",
+      "copyright_file": "/usr/share/doc/libfontconfig1/copyright",
+      "bundled_files": [
+        "libfontconfig.so.1"
+      ]
+    },
+    {
+      "binary_package": "liblzma5:amd64",
+      "version": "5.8.3-1ubuntu0.1",
+      "source_package": "xz-utils",
+      "source_version": "5.8.3-1ubuntu0.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/xz-utils/5.8.3-1ubuntu0.1",
+      "copyright_file": "/usr/share/doc/liblzma5/copyright",
+      "bundled_files": [
+        "liblzma.so.5"
+      ]
+    },
+    {
+      "binary_package": "libsharpyuv0:amd64",
+      "version": "1.5.0-0.1build1",
+      "source_package": "libwebp",
+      "source_version": "1.5.0-0.1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libwebp/1.5.0-0.1build1",
+      "copyright_file": "/usr/share/doc/libsharpyuv0/copyright",
+      "bundled_files": [
+        "libsharpyuv.so.0"
+      ]
+    },
+    {
+      "binary_package": "libgdk-pixbuf-2.0-0:amd64",
+      "version": "2.44.5+dfsg-4ubuntu1",
+      "source_package": "gdk-pixbuf",
+      "source_version": "2.44.5+dfsg-4ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/gdk-pixbuf/2.44.5%2Bdfsg-4ubuntu1",
+      "copyright_file": "/usr/share/doc/libgdk-pixbuf-2.0-0/copyright",
+      "bundled_files": [
+        "libgdk_pixbuf-2.0.so.0"
+      ]
+    },
+    {
+      "binary_package": "libpango-1.0-0:i386",
+      "version": "1.57.0-1",
+      "source_package": "pango1.0",
+      "source_version": "1.57.0-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/pango1.0/1.57.0-1",
+      "copyright_file": "/usr/share/doc/libpango-1.0-0/copyright",
+      "bundled_files": [
+        "libpango-1.0.so.0"
+      ]
+    },
+    {
+      "binary_package": "libhogweed6t64:amd64",
+      "version": "3.10.2-1",
+      "source_package": "nettle",
+      "source_version": "3.10.2-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/nettle/3.10.2-1",
+      "copyright_file": "/usr/share/doc/libhogweed6t64/copyright",
+      "bundled_files": [
+        "libhogweed.so.6"
+      ]
+    },
+    {
+      "binary_package": "libselinux1:i386",
+      "version": "3.9-4build1",
+      "source_package": "libselinux",
+      "source_version": "3.9-4build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libselinux/3.9-4build1",
+      "copyright_file": "/usr/share/doc/libselinux1/copyright",
+      "bundled_files": [
+        "libselinux.so.1"
+      ]
+    },
+    {
+      "binary_package": "libkrb5support0:i386",
+      "version": "1.22.1-2ubuntu4.1",
+      "source_package": "krb5",
+      "source_version": "1.22.1-2ubuntu4.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/krb5/1.22.1-2ubuntu4.1",
+      "copyright_file": "/usr/share/doc/libkrb5support0/copyright",
+      "bundled_files": [
+        "libkrb5support.so.0"
+      ]
+    },
+    {
+      "binary_package": "libldap2:i386",
+      "version": "2.6.10+dfsg-1ubuntu5",
+      "source_package": "openldap",
+      "source_version": "2.6.10+dfsg-1ubuntu5",
+      "source_url": "https://launchpad.net/ubuntu/+source/openldap/2.6.10%2Bdfsg-1ubuntu5",
+      "copyright_file": "/usr/share/doc/libldap2/copyright",
+      "bundled_files": [
+        "liblber.so.2"
+      ]
+    },
+    {
+      "binary_package": "libcom-err2:amd64",
+      "version": "1.47.2-3ubuntu4",
+      "source_package": "e2fsprogs",
+      "source_version": "1.47.2-3ubuntu4",
+      "source_url": "https://launchpad.net/ubuntu/+source/e2fsprogs/1.47.2-3ubuntu4",
+      "copyright_file": "/usr/share/doc/libcom-err2/copyright",
+      "bundled_files": [
+        "libcom_err.so.2"
+      ]
+    },
+    {
+      "binary_package": "libpcre2-16-0:amd64",
+      "version": "10.46-1ubuntu0.1",
+      "source_package": "pcre2",
+      "source_version": "10.46-1ubuntu0.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/pcre2/10.46-1ubuntu0.1",
+      "copyright_file": "/usr/share/doc/libpcre2-16-0/copyright",
+      "bundled_files": [
+        "libpcre2-16.so.0"
+      ]
+    },
+    {
+      "binary_package": "libidn2-0:i386",
+      "version": "2.3.8-4build1",
+      "source_package": "libidn2",
+      "source_version": "2.3.8-4build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libidn2/2.3.8-4build1",
+      "copyright_file": "/usr/share/doc/libidn2-0/copyright",
+      "bundled_files": [
+        "libidn2.so.0"
+      ]
+    },
+    {
+      "binary_package": "libts0t64:amd64",
+      "version": "1.22-1.1build2",
+      "source_package": "tslib",
+      "source_version": "1.22-1.1build2",
+      "source_url": "https://launchpad.net/ubuntu/+source/tslib/1.22-1.1build2",
+      "copyright_file": "/usr/share/doc/libts0t64/copyright",
+      "bundled_files": [
+        "libts.so.0"
+      ]
+    },
+    {
+      "binary_package": "libdouble-conversion3:amd64",
+      "version": "3.4.0-1",
+      "source_package": "double-conversion",
+      "source_version": "3.4.0-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/double-conversion/3.4.0-1",
+      "copyright_file": "/usr/share/doc/libdouble-conversion3/copyright",
+      "bundled_files": [
+        "libdouble-conversion.so.3"
+      ]
+    },
+    {
+      "binary_package": "libfreetype6:i386",
+      "version": "2.14.2+dfsg-1ubuntu0.2",
+      "source_package": "freetype",
+      "source_version": "2.14.2+dfsg-1ubuntu0.2",
+      "source_url": "https://launchpad.net/ubuntu/+source/freetype/2.14.2%2Bdfsg-1ubuntu0.2",
+      "copyright_file": "/usr/share/doc/libfreetype6/copyright",
+      "bundled_files": [
+        "libfreetype.so.6"
+      ]
+    },
+    {
+      "binary_package": "libxdamage1:amd64",
+      "version": "1:1.1.7-1",
+      "source_package": "libxdamage",
+      "source_version": "1:1.1.7-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxdamage/1%3A1.1.7-1",
+      "copyright_file": "/usr/share/doc/libxdamage1/copyright",
+      "bundled_files": [
+        "libXdamage.so.1"
+      ]
+    },
+    {
+      "binary_package": "libx11-xcb1:i386",
+      "version": "2:1.8.13-1ubuntu0.1",
+      "source_package": "libx11",
+      "source_version": "2:1.8.13-1ubuntu0.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libx11/2%3A1.8.13-1ubuntu0.1",
+      "copyright_file": "/usr/share/doc/libx11-xcb1/copyright",
+      "bundled_files": [
+        "libX11-xcb.so.1"
+      ]
+    },
+    {
+      "binary_package": "libdbus-1-3:amd64",
+      "version": "1.16.2-2ubuntu4",
+      "source_package": "dbus",
+      "source_version": "1.16.2-2ubuntu4",
+      "source_url": "https://launchpad.net/ubuntu/+source/dbus/1.16.2-2ubuntu4",
+      "copyright_file": "/usr/share/doc/libdbus-1-3/copyright",
+      "bundled_files": [
+        "libdbus-1.so.3"
+      ]
+    },
+    {
+      "binary_package": "libxrender1:amd64",
+      "version": "1:0.9.12-1build1",
+      "source_package": "libxrender",
+      "source_version": "1:0.9.12-1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxrender/1%3A0.9.12-1build1",
+      "copyright_file": "/usr/share/doc/libxrender1/copyright",
+      "bundled_files": [
+        "libXrender.so.1"
+      ]
+    },
+    {
+      "binary_package": "libwacom9:amd64",
+      "version": "2.18.0-1",
+      "source_package": "libwacom",
+      "source_version": "2.18.0-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libwacom/2.18.0-1",
+      "copyright_file": "/usr/share/doc/libwacom9/copyright",
+      "bundled_files": [
+        "libwacom.so.9"
+      ]
+    },
+    {
+      "binary_package": "libxcb-xkb1:amd64",
+      "version": "1.17.0-2ubuntu1",
+      "source_package": "libxcb",
+      "source_version": "1.17.0-2ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxcb/1.17.0-2ubuntu1",
+      "copyright_file": "/usr/share/doc/libxcb-xkb1/copyright",
+      "bundled_files": [
+        "libxcb-xkb.so.1"
+      ]
+    },
+    {
+      "binary_package": "libgomp1:amd64",
+      "version": "16-20260322-1ubuntu1",
+      "source_package": "gcc-16",
+      "source_version": "16-20260322-1ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/gcc-16/16-20260322-1ubuntu1",
+      "copyright_file": "/usr/share/doc/libgomp1/copyright",
+      "bundled_files": [
+        "libgomp.so.1"
+      ]
+    },
+    {
+      "binary_package": "libxres1:i386",
+      "version": "2:1.2.1-1build2",
+      "source_package": "libxres",
+      "source_version": "2:1.2.1-1build2",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxres/2%3A1.2.1-1build2",
+      "copyright_file": "/usr/share/doc/libxres1/copyright",
+      "bundled_files": [
+        "libXRes.so.1"
+      ]
+    },
+    {
+      "binary_package": "libsm6:amd64",
+      "version": "2:1.2.6-1build1",
+      "source_package": "libsm",
+      "source_version": "2:1.2.6-1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libsm/2%3A1.2.6-1build1",
+      "copyright_file": "/usr/share/doc/libsm6/copyright",
+      "bundled_files": [
+        "libSM.so.6"
+      ]
+    },
+    {
+      "binary_package": "libglycin-2-0:i386",
+      "version": "2.1.5+ds-0ubuntu0.2",
+      "source_package": "glycin",
+      "source_version": "2.1.5+ds-0ubuntu0.2",
+      "source_url": "https://launchpad.net/ubuntu/+source/glycin/2.1.5%2Bds-0ubuntu0.2",
+      "copyright_file": "/usr/share/doc/libglycin-2-0/copyright",
+      "bundled_files": [
+        "libglycin-2.so.0"
+      ]
+    },
+    {
+      "binary_package": "libuuid1:amd64",
+      "version": "2.41.3-3ubuntu2.2",
+      "source_package": "util-linux",
+      "source_version": "2.41.3-3ubuntu2.2",
+      "source_url": "https://launchpad.net/ubuntu/+source/util-linux/2.41.3-3ubuntu2.2",
+      "copyright_file": "/usr/share/doc/libuuid1/copyright",
+      "bundled_files": [
+        "libuuid.so.1"
+      ]
+    },
+    {
+      "binary_package": "libqt6network6:amd64",
+      "version": "6.10.2+dfsg-7",
+      "source_package": "qt6-base",
+      "source_version": "6.10.2+dfsg-7",
+      "source_url": "https://launchpad.net/ubuntu/+source/qt6-base/6.10.2%2Bdfsg-7",
+      "copyright_file": "/usr/share/doc/libqt6network6/copyright",
+      "bundled_files": [
+        "libQt6Network.so.6"
+      ]
+    },
+    {
+      "binary_package": "libxau6:amd64",
+      "version": "1:1.0.11-1build2",
+      "source_package": "libxau",
+      "source_version": "1:1.0.11-1build2",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxau/1%3A1.0.11-1build2",
+      "copyright_file": "/usr/share/doc/libxau6/copyright",
+      "bundled_files": [
+        "libXau.so.6"
+      ]
+    },
+    {
+      "binary_package": "libkeyutils1:i386",
+      "version": "1.6.3-6ubuntu3",
+      "source_package": "keyutils",
+      "source_version": "1.6.3-6ubuntu3",
+      "source_url": "https://launchpad.net/ubuntu/+source/keyutils/1.6.3-6ubuntu3",
+      "copyright_file": "/usr/share/doc/libkeyutils1/copyright",
+      "bundled_files": [
+        "libkeyutils.so.1"
+      ]
+    },
+    {
+      "binary_package": "libunistring5:amd64",
+      "version": "1.3-2build1",
+      "source_package": "libunistring",
+      "source_version": "1.3-2build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libunistring/1.3-2build1",
+      "copyright_file": "/usr/share/doc/libunistring5/copyright",
+      "bundled_files": [
+        "libunistring.so.5"
+      ]
+    },
+    {
+      "binary_package": "libgmp10:amd64",
+      "version": "2:6.3.0+dfsg-5ubuntu2",
+      "source_package": "gmp",
+      "source_version": "2:6.3.0+dfsg-5ubuntu2",
+      "source_url": "https://launchpad.net/ubuntu/+source/gmp/2%3A6.3.0%2Bdfsg-5ubuntu2",
+      "copyright_file": "/usr/share/doc/libgmp10/copyright",
+      "bundled_files": [
+        "libgmp.so.10"
+      ]
+    },
+    {
+      "binary_package": "libmount1:i386",
+      "version": "2.41.3-3ubuntu2.2",
+      "source_package": "util-linux",
+      "source_version": "2.41.3-3ubuntu2.2",
+      "source_url": "https://launchpad.net/ubuntu/+source/util-linux/2.41.3-3ubuntu2.2",
+      "copyright_file": "/usr/share/doc/libmount1/copyright",
+      "bundled_files": [
+        "libmount.so.1"
+      ]
+    },
+    {
+      "binary_package": "libxcb-keysyms1:amd64",
+      "version": "0.4.1-1build1",
+      "source_package": "xcb-util-keysyms",
+      "source_version": "0.4.1-1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/xcb-util-keysyms/0.4.1-1build1",
+      "copyright_file": "/usr/share/doc/libxcb-keysyms1/copyright",
+      "bundled_files": [
+        "libxcb-keysyms.so.1"
+      ]
+    },
+    {
+      "binary_package": "liblcms2-2:i386",
+      "version": "2.17-1ubuntu0.2",
+      "source_package": "lcms2",
+      "source_version": "2.17-1ubuntu0.2",
+      "source_url": "https://launchpad.net/ubuntu/+source/lcms2/2.17-1ubuntu0.2",
+      "copyright_file": "/usr/share/doc/liblcms2-2/copyright",
+      "bundled_files": [
+        "liblcms2.so.2"
+      ]
+    },
+    {
+      "binary_package": "libbz2-1.0:i386",
+      "version": "1.0.8-6ubuntu0.1",
+      "source_package": "bzip2",
+      "source_version": "1.0.8-6ubuntu0.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/bzip2/1.0.8-6ubuntu0.1",
+      "copyright_file": "/usr/share/doc/libbz2-1.0/copyright",
+      "bundled_files": [
+        "libbz2.so.1.0"
+      ]
+    },
+    {
+      "binary_package": "libxcb-xinput0:amd64",
+      "version": "1.17.0-2ubuntu1",
+      "source_package": "libxcb",
+      "source_version": "1.17.0-2ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxcb/1.17.0-2ubuntu1",
+      "copyright_file": "/usr/share/doc/libxcb-xinput0/copyright",
+      "bundled_files": [
+        "libxcb-xinput.so.0"
+      ]
+    },
+    {
+      "binary_package": "librtmp1:i386",
+      "version": "2.4+20151223.gitfa8646d.1-3",
+      "source_package": "rtmpdump",
+      "source_version": "2.4+20151223.gitfa8646d.1-3",
+      "source_url": "https://launchpad.net/ubuntu/+source/rtmpdump/2.4%2B20151223.gitfa8646d.1-3",
+      "copyright_file": "/usr/share/doc/librtmp1/copyright",
+      "bundled_files": [
+        "librtmp.so.1"
+      ]
+    },
+    {
+      "binary_package": "libstdc++6:i386",
+      "version": "16-20260322-1ubuntu1",
+      "source_package": "gcc-16",
+      "source_version": "16-20260322-1ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/gcc-16/16-20260322-1ubuntu1",
+      "copyright_file": "/usr/share/doc/libstdc++6/copyright",
+      "bundled_files": [
+        "libstdc++.so.6"
+      ]
+    },
+    {
+      "binary_package": "libwebp7:amd64",
+      "version": "1.5.0-0.1build1",
+      "source_package": "libwebp",
+      "source_version": "1.5.0-0.1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libwebp/1.5.0-0.1build1",
+      "copyright_file": "/usr/share/doc/libwebp7/copyright",
+      "bundled_files": [
+        "libwebp.so.7"
+      ]
+    },
+    {
+      "binary_package": "libharfbuzz0b:amd64",
+      "version": "12.3.2-2",
+      "source_package": "harfbuzz",
+      "source_version": "12.3.2-2",
+      "source_url": "https://launchpad.net/ubuntu/+source/harfbuzz/12.3.2-2",
+      "copyright_file": "/usr/share/doc/libharfbuzz0b/copyright",
+      "bundled_files": [
+        "libharfbuzz.so.0"
+      ]
+    },
+    {
+      "binary_package": "libk5crypto3:amd64",
+      "version": "1.22.1-2ubuntu4.1",
+      "source_package": "krb5",
+      "source_version": "1.22.1-2ubuntu4.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/krb5/1.22.1-2ubuntu4.1",
+      "copyright_file": "/usr/share/doc/libk5crypto3/copyright",
+      "bundled_files": [
+        "libk5crypto.so.3"
+      ]
+    },
+    {
+      "binary_package": "libevdev2:amd64",
+      "version": "1.13.6+dfsg-1",
+      "source_package": "libevdev",
+      "source_version": "1.13.6+dfsg-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libevdev/1.13.6%2Bdfsg-1",
+      "copyright_file": "/usr/share/doc/libevdev2/copyright",
+      "bundled_files": [
+        "libevdev.so.2"
+      ]
+    },
+    {
+      "binary_package": "libxcomposite1:amd64",
+      "version": "1:0.4.6-1build1",
+      "source_package": "libxcomposite",
+      "source_version": "1:0.4.6-1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libxcomposite/1%3A0.4.6-1build1",
+      "copyright_file": "/usr/share/doc/libxcomposite1/copyright",
+      "bundled_files": [
+        "libXcomposite.so.1"
+      ]
+    },
+    {
+      "binary_package": "libgcc-s1:amd64",
+      "version": "16-20260322-1ubuntu1",
+      "source_package": "gcc-16",
+      "source_version": "16-20260322-1ubuntu1",
+      "source_url": "https://launchpad.net/ubuntu/+source/gcc-16/16-20260322-1ubuntu1",
+      "copyright_file": "/usr/share/doc/libgcc-s1/copyright",
+      "bundled_files": [
+        "libgcc_s.so.1"
+      ]
+    },
+    {
+      "binary_package": "libx11-6:amd64",
+      "version": "2:1.8.13-1ubuntu0.1",
+      "source_package": "libx11",
+      "source_version": "2:1.8.13-1ubuntu0.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libx11/2%3A1.8.13-1ubuntu0.1",
+      "copyright_file": "/usr/share/doc/libx11-6/copyright",
+      "bundled_files": [
+        "libX11.so.6"
+      ]
+    },
+    {
+      "binary_package": "libsystemd0:amd64",
+      "version": "259.9-0ubuntu0.1",
+      "source_package": "systemd",
+      "source_version": "259.9-0ubuntu0.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/systemd/259.9-0ubuntu0.1",
+      "copyright_file": "/usr/share/doc/libsystemd0/copyright",
+      "bundled_files": [
+        "libsystemd.so.0"
+      ]
+    },
+    {
+      "binary_package": "libmng2:amd64",
+      "version": "2.0.3+dfsg-5",
+      "source_package": "libmng",
+      "source_version": "2.0.3+dfsg-5",
+      "source_url": "https://launchpad.net/ubuntu/+source/libmng/2.0.3%2Bdfsg-5",
+      "copyright_file": "/usr/share/doc/libmng2/copyright",
+      "bundled_files": [
+        "libmng.so.2"
+      ]
+    },
+    {
+      "binary_package": "libgssapi-krb5-2:i386",
+      "version": "1.22.1-2ubuntu4.1",
+      "source_package": "krb5",
+      "source_version": "1.22.1-2ubuntu4.1",
+      "source_url": "https://launchpad.net/ubuntu/+source/krb5/1.22.1-2ubuntu4.1",
+      "copyright_file": "/usr/share/doc/libgssapi-krb5-2/copyright",
+      "bundled_files": [
+        "libgssapi_krb5.so.2"
+      ]
+    },
+    {
+      "binary_package": "libxcb-image0:amd64",
+      "version": "0.4.0-2build2",
+      "source_package": "xcb-util-image",
+      "source_version": "0.4.0-2build2",
+      "source_url": "https://launchpad.net/ubuntu/+source/xcb-util-image/0.4.0-2build2",
+      "copyright_file": "/usr/share/doc/libxcb-image0/copyright",
+      "bundled_files": [
+        "libxcb-image.so.0"
+      ]
+    },
+    {
+      "binary_package": "libpsl5t64:i386",
+      "version": "0.21.2-1.1build2",
+      "source_package": "libpsl",
+      "source_version": "0.21.2-1.1build2",
+      "source_url": "https://launchpad.net/ubuntu/+source/libpsl/0.21.2-1.1build2",
+      "copyright_file": "/usr/share/doc/libpsl5t64/copyright",
+      "bundled_files": [
+        "libpsl.so.5"
+      ]
+    },
+    {
+      "binary_package": "libice6:amd64",
+      "version": "2:1.1.1-1build1",
+      "source_package": "libice",
+      "source_version": "2:1.1.1-1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/libice/2%3A1.1.1-1build1",
+      "copyright_file": "/usr/share/doc/libice6/copyright",
+      "bundled_files": [
+        "libICE.so.6"
+      ]
+    },
+    {
+      "binary_package": "libssl3t64:amd64",
+      "version": "3.5.5-1ubuntu3.7",
+      "source_package": "openssl",
+      "source_version": "3.5.5-1ubuntu3.7",
+      "source_url": "https://launchpad.net/ubuntu/+source/openssl/3.5.5-1ubuntu3.7",
+      "copyright_file": "/usr/share/doc/libssl3t64/copyright",
+      "bundled_files": [
+        "libssl.so.3"
+      ]
+    },
+    {
+      "binary_package": "python3-pyqt6",
+      "version": "6.10.2-2build5",
+      "source_package": "pyqt6",
+      "source_version": "6.10.2-2build5",
+      "source_url": "https://launchpad.net/ubuntu/+source/pyqt6/6.10.2-2build5",
+      "copyright_file": "/usr/share/doc/python3-pyqt6/copyright",
+      "bundled_files": [
+        "PyQt6/QtCore.abi3.so",
+        "PyQt6/QtGui.abi3.so",
+        "PyQt6/QtWidgets.abi3.so",
+        "PyQt6/QtDBus.abi3.so"
+      ]
+    },
+    {
+      "binary_package": "python3-pyqt6.qtsvg",
+      "version": "6.10.2-2build5",
+      "source_package": "pyqt6",
+      "source_version": "6.10.2-2build5",
+      "source_url": "https://launchpad.net/ubuntu/+source/pyqt6/6.10.2-2build5",
+      "copyright_file": "/usr/share/doc/python3-pyqt6.qtsvg/copyright",
+      "bundled_files": [
+        "PyQt6/QtSvg.abi3.so"
+      ]
+    },
+    {
+      "binary_package": "python3-pyqt6.sip",
+      "version": "13.11.0-1build1",
+      "source_package": "pyqt6-sip",
+      "source_version": "13.11.0-1build1",
+      "source_url": "https://launchpad.net/ubuntu/+source/pyqt6-sip/13.11.0-1build1",
+      "copyright_file": "/usr/share/doc/python3-pyqt6.sip/copyright",
+      "bundled_files": [
+        "PyQt6/sip.cpython-314-x86_64-linux-gnu.so"
+      ]
+    },
+    {
+      "binary_package": "libpython3.14-stdlib:amd64",
+      "version": "3.14.4-1ubuntu0.2",
+      "source_package": "python3.14",
+      "source_version": "3.14.4-1ubuntu0.2",
+      "source_url": "https://launchpad.net/ubuntu/+source/python3.14/3.14.4-1ubuntu0.2",
+      "copyright_file": "/usr/share/doc/libpython3.14-stdlib/copyright",
+      "bundled_files": [
+        "python3.14/lib-dynload/_uuid.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/_ctypes.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/_codecs_kr.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/_codecs_hk.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/_hmac.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/_codecs_tw.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/_bz2.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/_queue.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/_zstd.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/_codecs_iso2022.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/_multibytecodec.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/_lzma.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/_decimal.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/_codecs_cn.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/resource.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/_codecs_jp.cpython-314-x86_64-linux-gnu.so"
+      ]
+    },
+    {
+      "binary_package": "libpython3.14-minimal:amd64",
+      "version": "3.14.4-1ubuntu0.2",
+      "source_package": "python3.14",
+      "source_version": "3.14.4-1ubuntu0.2",
+      "source_url": "https://launchpad.net/ubuntu/+source/python3.14/3.14.4-1ubuntu0.2",
+      "copyright_file": "/usr/share/doc/libpython3.14-minimal/copyright",
+      "bundled_files": [
+        "python3.14/lib-dynload/_ssl.cpython-314-x86_64-linux-gnu.so",
+        "python3.14/lib-dynload/_hashlib.cpython-314-x86_64-linux-gnu.so"
+      ]
+    },
+    {
+      "binary_package": "qt6-image-formats-plugins",
+      "version": "6.10.2-1",
+      "source_package": "qt6-imageformats",
+      "source_version": "6.10.2-1",
+      "source_url": "https://launchpad.net/ubuntu/+source/qt6-imageformats/6.10.2-1",
+      "copyright_file": "/usr/share/doc/qt6-image-formats-plugins/copyright",
+      "bundled_files": [
+        "PyQt6/Qt6/plugins/imageformats/libqmng.so",
+        "PyQt6/Qt6/plugins/imageformats/libqwbmp.so",
+        "PyQt6/Qt6/plugins/imageformats/libqicns.so",
+        "PyQt6/Qt6/plugins/imageformats/libqwebp.so",
+        "PyQt6/Qt6/plugins/imageformats/libqtga.so",
+        "PyQt6/Qt6/plugins/imageformats/libqtiff.so"
+      ]
+    },
+    {
+      "binary_package": "qt6-svg-plugins:amd64",
+      "version": "6.10.2-2",
+      "source_package": "qt6-svg",
+      "source_version": "6.10.2-2",
+      "source_url": "https://launchpad.net/ubuntu/+source/qt6-svg/6.10.2-2",
+      "copyright_file": "/usr/share/doc/qt6-svg-plugins/copyright",
+      "bundled_files": [
+        "PyQt6/Qt6/plugins/imageformats/libqsvg.so",
+        "PyQt6/Qt6/plugins/iconengines/libqsvgicon.so"
+      ]
+    },
+    {
+      "binary_package": "qt6-qpa-plugins:amd64",
+      "version": "6.10.2+dfsg-7",
+      "source_package": "qt6-base",
+      "source_version": "6.10.2+dfsg-7",
+      "source_url": "https://launchpad.net/ubuntu/+source/qt6-base/6.10.2%2Bdfsg-7",
+      "copyright_file": "/usr/share/doc/qt6-qpa-plugins/copyright",
+      "bundled_files": [
+        "PyQt6/Qt6/plugins/generic/libqtuiotouchplugin.so",
+        "PyQt6/Qt6/plugins/platforms/libqvnc.so"
+      ]
+    },
+    {
+      "binary_package": "gnome-themes-extra:amd64",
+      "version": "3.28-5",
+      "source_package": "gnome-themes-extra",
+      "source_version": "3.28-5",
+      "source_url": "https://launchpad.net/ubuntu/+source/gnome-themes-extra/3.28-5",
+      "copyright_file": "/usr/share/doc/gnome-themes-extra/copyright",
+      "bundled_files": [
+        "PyQt6/Qt6/plugins/wayland-decoration-client/libadwaita.so"
+      ]
+    },
+    {
+      "binary_package": "qt6-wayland:amd64",
+      "version": "6.10.2-4",
+      "source_package": "qt6-wayland",
+      "source_version": "6.10.2-4",
+      "source_url": "https://launchpad.net/ubuntu/+source/qt6-wayland/6.10.2-4",
+      "copyright_file": "/usr/share/doc/qt6-wayland/copyright",
+      "bundled_files": [
+        "PyQt6/Qt6/plugins/wayland-shell-integration/libqt-shell.so",
+        "PyQt6/Qt6/plugins/wayland-shell-integration/libivi-shell.so"
+      ]
+    },
+    {
+      "binary_package": "qt6-gtk-platformtheme:amd64",
+      "version": "6.10.2+dfsg-7",
+      "source_package": "qt6-base",
+      "source_version": "6.10.2+dfsg-7",
+      "source_url": "https://launchpad.net/ubuntu/+source/qt6-base/6.10.2%2Bdfsg-7",
+      "copyright_file": "/usr/share/doc/qt6-gtk-platformtheme/copyright",
+      "bundled_files": [
+        "PyQt6/Qt6/plugins/platformthemes/libqgtk3.so"
+      ]
+    }
+  ]
+}
