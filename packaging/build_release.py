@@ -23,15 +23,15 @@ for folder in (ROOT/'.build-venv/lib').glob('python*/site-packages/*dist-info'):
         if file.is_file() and ('license' in file.name.lower() or file.name=='COPYING.txt'):
             copy(file,notices/folder.name/file.relative_to(folder))
 copy(Path('/usr/share/doc/python3.14/copyright'),notices/'python-copyright')
-manifest={'version':VERSION,'platform':platform.platform(),'python':platform.python_version(),'PyQt6':'6.10.2','Qt':'6.10.2','PyInstaller':'6.22.3','architecture':'x86_64'}
+manifest={'version':VERSION,'platform':platform.platform(),'python':platform.python_version(),'PyQt6':'6.10.2','Qt':'6.10.2','PyInstaller':'6.22.3','architecture':'x86_64','source_commit':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()}
 (stage/'BUILD-INFO.json').write_text(json.dumps(manifest,indent=2)+'\n')
 source=OUT/f'vision-law-{VERSION}-source.tar.gz'
 files=subprocess.check_output(['git','ls-files'],cwd=ROOT,text=True).splitlines()
-with tarfile.open(source,'w:gz') as archive:
+with tarfile.open(source,'w:gz',compresslevel=6) as archive:
     for name in files:archive.add(ROOT/name,arcname=f'vision-law-{VERSION}-source/'+name)
 copy(source,stage/source.name)
 portable=OUT/(NAME+'.tar.gz')
-with tarfile.open(portable,'w:gz') as archive:archive.add(stage,arcname=NAME)
+with tarfile.open(portable,'w:gz',compresslevel=6) as archive:archive.add(stage,arcname=NAME)
 debroot=OUT/'deb-root';debroot.mkdir(exist_ok=True)
 shutil.copytree(stage/'app',debroot/'opt/vision-law',dirs_exist_ok=True)
 copy(ROOT/'packaging/vision-law.desktop',debroot/'usr/share/applications/vision-law.desktop')
@@ -50,7 +50,7 @@ Description: Local Markdown notes and knowledge circuit boards
  Desktop application with independent Markdown vaults and named boards.
 ''')
 deb=OUT/f'vision-law_{VERSION}_amd64.deb'
-subprocess.run(['dpkg-deb','--build','--root-owner-group',str(debroot),str(deb)],check=True)
+subprocess.run(['dpkg-deb','--build','--root-owner-group','--threads-max=2','-Zgzip','-z6',str(debroot),str(deb)],check=True)
 with (OUT/'SHA256SUMS').open('w') as f:
     for file in (portable,deb,source):f.write(hashlib.sha256(file.read_bytes()).hexdigest()+'  '+file.name+'\n')
 print('Built:',portable,deb,source,sep='\n')
