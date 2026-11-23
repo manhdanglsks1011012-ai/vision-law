@@ -1,0 +1,2 @@
+Source: 42 unittest tests PASS, 19.784 seconds.
+Packaged binary / installer results: see final validation below.
